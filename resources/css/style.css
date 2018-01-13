@@ -145,6 +145,13 @@ header {
 .main-nav li a:active {border-bottom: 3px solid #009688;}
 
 
+
+
+
+
+
+
+
 .main-title {
 	position: absolute;
 	left: 50%;
@@ -221,6 +228,8 @@ header {
 	top: 0;
 	left: 0;
 	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 	width: 100%;
 	background-color: rgba(255, 255, 255, 0.6);
 	-webkit-box-shadow: 0 1px 1px #f7f7f7;
@@ -375,6 +384,11 @@ header {
 	margin-left: 4%;
 	margin-right: 4%;
 	text-align: center;
+	line-height: 130%;
+}
+
+.disclaimer .first-line {
+	font-weight: bold;
 }
 .ball {
 	font-size: 90%;
@@ -607,9 +621,14 @@ footer {
 }
 
 
+/* --------------------------------------------------- */
+/* Media Queries */
+/* --------------------------------------------------- */
+
+
 /*large ipad to desktop/laptop */
 @media only screen and (max-width: 1200px) {
-.row {margin: 1%;}
+.row {margin: 0%;}
 
 }
 
@@ -619,11 +638,12 @@ footer {
 .main-nav li a:link,
 .main-nav li a:visited {font-size: 125%;}
 
+
 .about-box img {
 	width: 55%;
 	margin-bottom: 3%;
 	margin-left: 25%;
-}
+	}
 
 .ball {
 	font-size: 70%;
@@ -631,7 +651,7 @@ footer {
 	width: 90px;
 	-webkit-animation: move 8s 0.2s 10 alternate;
 	        animation: move 8s 0.2s 10 alternate;
-}
+	}
 
 html, body {font-size: 115%;}
 
@@ -641,11 +661,25 @@ h2 {font-size: 155%;}
 
 section {padding: 7% 0;}
 
+.contact-section p {
+	padding: 2%;
+	margin-bottom: 2%;
+	}
+
 
 }
 
 /*Large Phones  to small tablets*/
 @media only screen and (max-width: 767px) {
+.main-nav {
+	position: absolute;
+	top: 1%;
+	left: 0;
+	margin-top: 0;
+	padding-top: 1%;
+	width: 100%;
+}
+
 .main-nav li {
 	padding-top: 0%;
 	display: inline-block;
@@ -655,6 +689,12 @@ section {padding: 7% 0;}
 
 .main-nav li a:link,
 .main-nav li a:visited {font-size: 100%;}
+
+.follow {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
 
 h1 {font-size: 180%;}
 h2 {font-size: 140%;}
@@ -687,12 +727,12 @@ h2 {font-size: 140%;}
 	margin-left: -15%;
 	}
 h6,
-h4 {font-size: 90%;}
+h4 {font-size: 115%;}
 
 .middle p {font-size: 68%;}
 
 .disclaimer {
-	margin-top: 10%;
+	margin-top: 5%;
 	font-size: 90%;
 	line-height: 150%;
 }
@@ -713,7 +753,7 @@ html {font-size: 100%;}
 
 .about-box p {
 	margin-left: -3%;
-	font-size: 75%;
+	font-size: 85%;
 	line-height: 130%;
 	margin-right: 13%;
 	}
@@ -736,5 +776,8 @@ html,
 body {font-size: 100%;}
 
 h2 {margin-top: 4%;}
+
 }
+
+
 
