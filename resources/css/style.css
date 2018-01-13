@@ -653,6 +653,8 @@ footer {
 .main-nav li a:link,
 .main-nav li a:visited {font-size: 125%;}
 
+header {background-size: 100%;}
+
 html, body {font-size: 115%;}
 
 h1 {font-size: 210%;}
