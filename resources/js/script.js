@@ -46,7 +46,7 @@ $(function() {
 
 		// Submit the form using AJAX.
 		$.ajax({
-			url: "http://formspree.io/miranda.howitt@gmail.com",
+			url: "https://formspree.io/miranda.howitt@gmail.com",
 			method: "POST",
 			data: formData,
 			dataType: "json"
