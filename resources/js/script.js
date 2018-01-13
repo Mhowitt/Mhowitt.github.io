@@ -54,7 +54,7 @@ $(function() {
 			$(formMessages).addClass('success');
 
 			// Set the message text.
-			$(formMessages).text(response);
+			$(formMessages).text('Your message has been sent!');
 
 			// Clearing the form.
 			$('#name').val('');
