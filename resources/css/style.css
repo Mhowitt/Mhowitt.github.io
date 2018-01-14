@@ -768,6 +768,11 @@ html {font-size: 100%;}
 	margin-right: 13%;
 	}
 
+	.main-nav li:last-child {margin-right: 0%;}
+	.main-nav li {
+	margin-right: 0%;
+	}
+
 .about-box {text-align: center;}
 
 .about-box .social-connect {
