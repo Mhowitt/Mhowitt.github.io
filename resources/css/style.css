@@ -654,7 +654,7 @@ footer {
 .main-nav li a:visited {font-size: 125%;}
 
 header {
-	width: 100%;
+	background-size: auto 100%;
 	background-repeat: no-repeat;
 	}
 
