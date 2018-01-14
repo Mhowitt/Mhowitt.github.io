@@ -108,8 +108,8 @@ header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.15)), url(../img/SF.jpg);
 	background-size: cover;
     background-position: center;
-    height: 100vh;
     background-attachment: fixed;
+    height: 100vh;
 	}
 
 /*-------------------Reg Nav------------------------------*/
@@ -653,7 +653,10 @@ footer {
 .main-nav li a:link,
 .main-nav li a:visited {font-size: 125%;}
 
-header {background-size: 100%;}
+header {
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	}
 
 html, body {font-size: 115%;}
 
