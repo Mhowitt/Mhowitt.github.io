@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).on("load", function () {
 	$('.js--section-about').waypoint(function(direction) {
 		if (direction == "down") {
 			$('nav').addClass('follow');
@@ -54,7 +54,7 @@ $(function() {
 			$(formMessages).addClass('success');
 
 			// Set the message text.
-			$(formMessages).text('Your message has been sent!');
+			$(formMessages).text('response');
 
 			// Clearing the form.
 			$('#name').val('');
