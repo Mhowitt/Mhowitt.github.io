@@ -386,7 +386,56 @@ h2:after {
 
 .disclaimer .first-line {font-weight: bold;}
 
-.ball {
+.portfolio-gallery {
+	list-style: none;
+	width: 100%;
+	margin-left: 12%;
+	margin-right: 12%;
+}
+.portfolio-box {
+	width: 30%;
+	margin: 0;
+	overflow: hidden;
+	display: relative;
+	background-color: #fff;
+	display: relative;
+} 
+
+.portfolio-container {
+	position: relative;
+	display: inline-block;
+}
+
+.portfolio-gallery li {
+	display: inline-block;
+	margin: 5%;
+}
+
+
+.portfolio-box img {
+	width: 100%;
+	opacity: 1;
+	height: auto;
+	-webkit-transform: scale(1.06);
+	        transform: scale(1.06);
+	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+	transition: opacity 0.5s, -webkit-transform 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.portfolio-box:hover img{
+	-webkit-transform: scale(1.03);
+	        transform: scale(1.03);
+	opacity: 0.27;
+	}
+
+.portfolio-box:hover .middle {opacity: 1;}
+
+
+
+
+/*.ball {
 	font-size: 90%;
 	height: 110px;
 	width: 110px;
@@ -509,7 +558,7 @@ h2:after {
 	-webkit-transform: translate(-50%,-50%);
 	        transform: translate(-50%,-50%);
 	color: white;
-	}
+	}*/
 /* --------------------------------------------------- */
 /* Contact */
 /* --------------------------------------------------- */
