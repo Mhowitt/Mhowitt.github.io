@@ -374,7 +374,7 @@ h2:after {
 
 .section-portfolio {
 	background-color: #f4f4f4;
-	height: 100vh;
+	height: 800px;
 	}
 
 .disclaimer {
@@ -619,6 +619,10 @@ section {padding: 7% 0;}
 	}
 
 .social-connect p {margin-left:-27%;}
+
+.section-portfolio {
+	height: 500px;
+}
 
 .about-box p {
 	margin-left: 2%;
